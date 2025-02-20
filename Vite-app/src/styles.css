@@ -1,0 +1,54 @@
+*{
+    background-color: #32a8a6;
+}
+
+.app{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900px;
+    font-size: 100px;
+}
+.para{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 300px;
+    width: 900px;
+    margin-left: 340px;
+    font-size: 25px;
+}
+.box{
+    display: flex;
+    gap: 89px;
+    margin-left: 430px;
+    margin-top: 100px;
+}
+@keyframes animate {
+    from{rotate: 0deg;}
+    to{rotate: 360deg;}
+}
+.box1{
+    border: 2px solid #E52020;
+    height: 200px;
+    width: 200px;
+    background-color:#E52020;
+    animation: animate 10s linear infinite ;
+    border-radius: 20%;
+}
+.box2{
+    border: 2px solid  #FBA518;
+    height: 200px;
+    width: 200px;
+    background-color: #FBA518;
+    animation: animate 10s linear infinite ;
+    border-radius: 20%;
+}
+.box3{
+    border: 2px solid #F9CB43;
+    height: 200px;
+    width: 200px;
+    background-color:#F9CB43;
+    animation: animate 10s linear infinite ;
+    border-radius: 20%;
+}
